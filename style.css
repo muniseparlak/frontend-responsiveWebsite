@@ -1,0 +1,324 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgray;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px; 
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header .logo .circle {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.header .logo .logo-circle .circle-1{
+    background-color: #8870a9;
+    margin-bottom: 10px;
+    
+}
+
+.header .logo .logo-circle .circle-2{
+    background-color: #666568;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+    overflow:hidden;
+   
+}
+
+.about .about-picture {
+    display: flex;
+    align-items: center;
+    
+}
+
+.about .about-picture img{
+    border-radius: 50%;
+    padding: 5px;
+    transition: .5s;
+}
+
+.about .about-picture img:hover{
+    transform: translateY(-5px);
+    cursor:pointer
+}
+
+.about .about-picture .col-1{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.about .about-picture .col-2{
+    margin-bottom: -20px;
+}
+
+.about .about-picture .col-6{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.about .about-picture .col-5{
+    margin-bottom: -20px;
+}
+
+.about .about-info{
+    margin: 0 55px;
+}
+
+.about .about-info h1{
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about .about-info p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(160,154,154);
+}
+
+.about .about-info .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.about .about-info span {
+    background-color: #92a8d1;
+    color: white;
+    font-weight: 500;
+}
+
+.about .about-info .button a:first-child {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #92a8d1;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.about .about-info .button a:last-child {
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #8870a9;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+.line .limit {
+    border: 1px solid #5a5858;
+    height: 55px;
+}
+
+.line .line-circle {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #5a5858;
+    border-radius: 50%;
+    color: #777;
+    font-size: 16px;
+    font-weight: bold;
+      
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 50px;
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.container .content img{
+   margin: 10px 5px;
+   border-radius: 10px;
+}
+
+.container .information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      
+}
+
+.container .information h4{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #92a8d1;
+    letter-spacing: 1.8px;
+    text-align:  center;
+}
+
+.container .information h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:  center;
+    line-height: 1.2;
+}
+
+.container .information p{
+    font-size: 16px;
+    text-align:  center;
+    letter-spacing: 0.9px;
+    line-height: 1.2;
+    margin: 20px 0;
+    color: rgb(160,154,154);
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 300px;
+   
+}
+.footer .footer-picture {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://picsum.photos/id/289/900/300);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-info{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0.7;
+    width: 100%;
+    height: 300px;
+   background-color: #b89ddf;
+
+
+}
+
+.footer-info h4 {
+    background: transparent;
+    margin-right: 20px;
+}
+
+.footer-info a {
+    background-color: #666568;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 0.9;
+    color: white;
+
+}
+
+.footer-info span {
+    background-color: #666568;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.footer-info p{
+    background: transparent;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+/* Responsive start */
+
+@media screen and (max-width: 870px) {
+    .footer-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .about-info h1{
+        font-size: 35px;
+    }
+
+    .about .about-info p{
+        font-size: 12px;
+        flex-direction: column;
+    }
+    
+    .about .picture-1{
+        margin-left: 35px;
+    }
+
+    .about .picture-2{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container .information h2{
+        font-size: 20px;
+    }
+}
